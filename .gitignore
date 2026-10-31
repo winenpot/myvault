@@ -1,0 +1,11 @@
+# Secrets / vault data - never commit
+*.kdbx
+*.kdbx.*
+*.key
+*.keyx
+.env
+*.bak
+
+# Upstream source + build output
+upstream/
+dist/
